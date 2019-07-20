@@ -1,0 +1,36 @@
+{
+    "StatusCode": 200,
+    "Message": "请求成功",
+    "Data": [
+        {
+            "name": "病危",
+            "num": 1,
+            "level": 1
+        },
+        {
+            "name": "病重",
+            "num": 2,
+            "level": 2
+        },
+        {
+            "name": "特技",
+            "num": 3,
+            "level": 3
+        },
+        {
+            "name": "一级",
+            "num": 4,
+            "level": 4
+        },
+        {
+            "name": "二级",
+            "num": 5,
+            "level": 5
+        },
+        {
+            "name": "三级",
+            "num": 5,
+            "level": 6
+        }
+    ]
+}

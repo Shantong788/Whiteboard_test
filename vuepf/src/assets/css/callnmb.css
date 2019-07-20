@@ -1,0 +1,334 @@
+body,
+html {
+    width: 100%;
+    font-family: "微软雅黑";
+}
+.cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conment{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 8%;
+    background:url(../img/hesd-bj.png);
+    background-position: center;
+    background-size: 100% 100%; 
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 3%;
+    text-align: center;
+    margin-left: 0.5%;
+}
+.logo>img{
+    width: 0.11rem;
+}
+.name{
+    width: 12%;
+    font-size: .1rem;
+    font-weight: bold;
+    color: #fff;
+}
+.keshi{
+    width: 65%;
+    font-size: 0.08rem;
+    color: #fff;
+}
+.time{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+    
+}
+.time>p{
+    font-size: 0.06rem;
+    color: #fff;
+}
+.retui{
+    width: 5%;
+    height: 100%;
+    position: relative;
+}
+.retui:hover{
+    background: #004dde;
+}
+.tuichu{
+    width: 0.12rem;
+}
+.txtno{
+    width: 100%;
+    height: 55%;
+    position: absolute;
+    bottom: -55%;
+    z-index: 999;
+    font-size: 0.06rem;
+    color: #519FFF;
+    background: #fff;
+    display: none;
+}
+.txtno:hover{
+    color: #fff;
+    background: #519FFF;
+}
+.main{
+    width: 100%;
+    height: 90%;
+}
+.list{
+    width: 100%;
+    height: 8%;
+    border-bottom: solid #f5f5f5 0.03rem;
+}
+.l_lft{
+    height: 100%;
+    width: 40%;
+    margin-left: 1%;
+    float: left;
+}
+.l_info{
+    width: 13%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.inner{
+    width: 0.12rem;
+    float: left;
+}
+.nmb{
+    text-align: center;
+    margin-left: 10%;
+    color: #333;
+    font-size: 0.08rem;
+}
+.kong{
+    width: 0.12rem;
+    height: 0.12rem;
+    background: #519FFF;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 0.07rem;
+}
+.all{
+    font-size: 0.08rem;
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+.allnbm{
+    font-size: 0.09rem;
+    color: #519FFF;
+}
+.l_rgt{
+    height: 100%;
+    width: 58%;
+    margin-right: 1%;
+    float: left;
+}
+.r_info {
+    width: 18%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.rg_info {
+    width: 13%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bing{
+    width: 0.2rem;
+    height: 0.12rem;
+    background: #519FFF;
+    border-radius: 10%;
+    color: #fff;
+    font-size: 0.05rem;
+}
+.huli{
+    width: 0.35rem;
+    height: 0.12rem;
+    border-radius: 6%;
+    color: #fff;
+    font-size: 0.05rem;
+}
+
+.four{
+    background: #fff;
+    border: solid #519FFF 1px;
+    color: #519FFF;
+}
+.news{
+    width: 78%;
+    height: 90%;
+    margin-left: 1%;
+    float: left;
+    overflow: hidden;
+}
+.news_tip{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.leet{
+    width: 100%;
+    height: 23%;
+}
+.le_info{
+    width:19%;
+    height:100%;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+    float: left;
+    border: solid #f0f0f0 1px;
+    border-radius: 3%;
+}
+.le_top{
+    width: 92%;
+    height: 55%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 55%;
+    margin-top: 4%;
+ 
+}
+.pepimg{
+    width: .27rem;
+    height: .27rem;
+    float: left; 
+}
+.chuang{
+    width: 65%;
+    height: 40%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hao{
+    font-size: 0.1rem;
+    color: #519FFF;
+}
+.jibie{
+    width: 0.15rem;
+    height: 0.07rem;
+    background: #519FFF;
+    color: #fff;
+    font-size: 0.05rem;
+    border-radius: 12%;
+}
+.huanzhe{
+    width: 33%;
+    height: 60%;
+    font-size: 0.06rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.le_btm{
+    width: 92%;
+    height: 40%;
+    margin: auto;
+}
+.docter{
+    width: 80%;
+    height: 50%;
+    font-size: 0.06rem;
+    float: left;
+}
+.work{
+    width: 20%;
+    text-align: center;
+    font-size: 0.05rem;
+    color: #519FFF;
+    float: left;
+}
+.hushi{
+    width: 100%;
+    height: 45%;
+    font-size: 0.06rem;
+    display: inline-block;
+}
+.ping_rgt{
+    width: 20%; 
+    height: 90%;
+    margin-right: 1%;
+    float: left;
+}
+.rgt_top{
+    width: 100%;
+    height: 45%;
+    border-bottom: solid #f5f5f5 0.03rem;
+}
+.tip{
+    width: 100%;
+    height: 12%;
+    font-size: 0.07rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.biue{
+    width: 0.01rem;
+    height: 0.06rem;
+    margin-right: 2%;
+    background: #519FFF;
+}
+.tody{
+    width: 100%;
+    height: 10%;
+    font-size: 0.06rem;
+    display: flex;
+    align-items: center;
+}
+.tdy_nmb{
+    color: #519FFF;
+}
+.tdy_c{
+    margin-left: 1.5%;
+}
+.rgt_btm{
+    height: 51%;
+    width: 100%;
+    overflow: hidden;
+}
+.tip_b{
+    width: 0.02rem;
+    height: 0.02rem;
+    background: #519FFF;
+    border-radius: 50%;
+}
+.rgt_her{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.doc_tip{
+    height: 4%;
+    margin-top: 3%;
+}
+.tee{
+    background: #FD4830;
+}
+.one{
+    background: #F9A137;
+}
+.two{
+    background: #00C46C;
+}
+.thre{
+    background: #519FFF;
+}
